@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0;}
+
+.page-wrapper {
+  margin: 15px;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.green-column {
+  background-color: green;
+}
+
+.blue-column {
+  background-color: blue;
+}
+
+@media screen and (min-width: 700px) {
+  .column {
+    flex: 1;
+  }
+}
